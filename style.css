@@ -95,182 +95,106 @@
     border-radius: 7px;
     font-weight: normal;
 }
-
-
 .checkbox-label:hover {
     background: #e5e7eb;
 }
-
-
 .checkbox-label input {
     width: auto;
 }
-
-
-/* TEXTAREA COUNTER*/
-
 .textarea-footer {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
 }
-
-
 #charCounter {
     color: #6b7280;
-
     font-size: 13px;
 }
-
-/*BUTTONS */
-
 .form-buttons {
     display: flex;
-
     gap: 15px;
-
     margin-top: 25px;
 }
-
-
 .btn {
     border: none;
-
     padding: 12px 22px;
-
     border-radius: 8px;
-
     font-size: 15px;
-
     font-weight: 600;
 }
-
-
 .btn-primary {
     background: #2563eb;
-
     color: white;
 }
-
-
-
-
 .btn-secondary {
     background: #e5e7eb;
-
     color: #374151;
 }
-
 .footer {
     background: #111827;
-
     color: #d1d5db;
-
     text-align: center;
-
     padding: 25px;
-
     margin-top: 50px;
 }
-
 @media (max-width: 768px) {
-
     .header {
         padding: 30px 5%;
     }
-
-
     .header-content h1 {
         font-size: 25px;
     }
-
-
     .container {
         width: 94%;
-
         margin-top: 25px;
     }
-
-
     .form-section{
         padding: 22px;
     }
     .form-grid {
         grid-template-columns: 1fr;
     }
-
-
     .full-width {
         grid-column: auto;
     }
-
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media (max-width: 480px) {
-
     .header {
         flex-direction: column;
-
         text-align: center;
-
         padding: 25px 15px;
     }
-
-
     .header-content h1 {
         font-size: 22px;
     }
-
-
     .header-content p {
         font-size: 14px;
     }
-
-
     .container {
         width: 94%;
     }
-
-
     .form-section{
         padding: 18px;
     }
-
-
     .section-heading h2 {
         font-size: 20px;
     }
-
     .radio-group {
         flex-direction: column;
-
         align-items: flex-start;
-
         gap: 10px;
     }
-
-
-
     .btn {
         width: 100%;
     }
-
-
-    /* Checkbox */
     .checkbox-group {
         flex-direction: column;
-
         align-items: flex-start;
     }
-
-
     .checkbox-label {
         width: 100%;
     }
-
 }
